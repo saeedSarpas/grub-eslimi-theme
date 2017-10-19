@@ -1,0 +1,30 @@
+title-text: ""
+desktop-image: "background.png"
+
+terminal-box: "terminal_box_*.png"
+terminal-left: "6%"
+terminal-top: "60%"
+terminal-width: "32%"
+terminal-height: "32%"
+terminal-border: "0"
+
++ boot_menu {
+        left = 52%
+        top = 43%
+        width = 16%
+        height = 40%
+
+        selected_item_color = "#dfcf9d"
+
+        item_padding = 20
+        item_spacing = 20
+        item_height = 238
+
+        icon_width = 630
+        icon_height = 238
+        item_icon_space = 10
+
+        scrollbar = false
+
+        selected_item_pixmap_style = "select_*.png"
+}
